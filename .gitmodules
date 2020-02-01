@@ -1,3 +1,6 @@
 [submodule "meghna-hugo"]
 	path = meghna-hugo
 	url = https://github.com/themefisher/meghna-hugo
+[submodule "quickstart/quickstart/gohugo-theme-ananke"]
+	path = quickstart/quickstart/gohugo-theme-ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
