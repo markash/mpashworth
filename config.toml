@@ -56,13 +56,13 @@ URL = "services"
 weight = 2
 
 [[menu.main]]
-name = "Team"
-URL = "team"
+name = "Portfolio"
+URL = "portfolio"
 weight = 3
 
 [[menu.main]]
-name = "Pricing"
-URL = "pricing"
+name = "blog"
+URL = "blog"
 weight = 4
 
 [[menu.main]]
@@ -79,7 +79,7 @@ weight = 6
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images\logo-291×42-white.png"
+logo = "images/logo-291×42-white.png"
 # Meta data
 description = "Responsive Multipurpose Parallax HTML5 Template"
 author = "Themefisher"
@@ -91,7 +91,7 @@ post_share = true
 # preloader
 [params.preloader]
 enable = true
-preloader = "images\logo-291×42-white.png"
+preloader = "images/logo-291×42-white.png"
 
 # google map
 [params.map]
