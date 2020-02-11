@@ -79,19 +79,19 @@ weight = 6
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/logo.png"
+logo = "images\logo-291×42-white.png"
 # Meta data
 description = "Responsive Multipurpose Parallax HTML5 Template"
 author = "Themefisher"
 # Google Analitycs
-google_analitycs_id = "" # Your ID
+google_analitycs_id = "UA-23269300-1"
 # post share
 post_share = true
 
 # preloader
 [params.preloader]
 enable = true
-preloader = "images/logo.png"
+preloader = "images\logo-291×42-white.png"
 
 # google map
 [params.map]
