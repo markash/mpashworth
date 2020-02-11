@@ -126,3 +126,9 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 
+[Languages.afr]
+languageName = "Afr"
+languageCode = "afr-rsa"
+contentDir = "content/afrikaans"
+weight = 1
+home = "Home"
