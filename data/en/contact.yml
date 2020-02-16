@@ -8,10 +8,13 @@ contact:
 
   contact_details :
     - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
-      info : "9 Brendon Road, Birchleigh North X3, Kempton Park"
+      info : "Khaja Road, Bayzid, Chittagong, Bangladesh"
       
     - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
-      info : "Phone: +27 83 438 4097"
+      info : "Phone: +880-31-000-000"
+      
+    - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
+      info : "Fax: +880-31-000-000"
       
     - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-      info : "Email: mp.ashworth@gmail.com"
+      info : "Email: hello@meghna.com"

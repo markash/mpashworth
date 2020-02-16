@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
-baseURL = "http://yellowfire.co.za/"
-title = "MP.Ashworth | The possibilities are endless"
+baseURL = "https://examplesite.com"
+title = "Meghna"
 theme = "meghna-hugo"
 # post pagination
 paginate = "6"
@@ -51,37 +51,52 @@ URL = "about"
 weight = 1
 
 [[menu.main]]
-name = "Portfolio"
-URL = "portfolio"
+name = "Service"
+URL = "services"
 weight = 2
 
 [[menu.main]]
-name = "blog"
-URL = "blog"
+name = "Portfolio"
+URL = "portfolio"
 weight = 3
+
+[[menu.main]]
+name = "Team"
+URL = "team"
+weight = 4
+
+[[menu.main]]
+name = "Pricing"
+URL = "pricing"
+weight = 5
+
+[[menu.main]]
+name = "Blog"
+URL = "blog"
+weight = 6
 
 [[menu.main]]
 name = "Contact"
 URL = "contact"
-weight = 4
+weight = 7
 
 
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/logo-291×42-white.png"
+logo = "images/logo.png"
 # Meta data
 description = "Responsive Multipurpose Parallax HTML5 Template"
 author = "Themefisher"
 # Google Analitycs
-google_analitycs_id = "UA-23269300-1"
+google_analitycs_id = "" # Your ID
 # post share
 post_share = true
 
 # preloader
 [params.preloader]
 enable = true
-preloader = "images/logo-291×42-white.png"
+preloader = "images/logo.png"
 
 # google map
 [params.map]
@@ -98,7 +113,7 @@ link = "#"
 
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "https://twitter.com/mp_ashworth"
+link = "#"
 
 [[params.social]]
 icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
@@ -106,11 +121,16 @@ link = "#"
 
 [[params.social]]
 icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "https://www.linkedin.com/in/markashworth/"
+link = "#"
+
+[[params.social]]
+icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
+link = "#"
 
 [[params.social]]
 icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
-link = "https://za.pinterest.com/markpashworth/"
+link = "#"
+
 
 ################################ English Language ########################
 [Languages.en]
@@ -120,9 +140,10 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 
-[Languages.afr]
-languageName = "Afr"
-languageCode = "af-ZA"
-contentDir = "content/afrikaans"
-weight = 1
-home = "Home"
+################################ France Language ########################
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/french"
+weight = 2
+home = "Accueil"
